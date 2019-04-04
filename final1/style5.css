@@ -1,0 +1,91 @@
+
+header{
+    background: linear-gradient(to right,#69C0FF,#2D84C3 ) ;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #2d84c3 3px solid;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header ul li{
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+
+}
+header #logo{
+    float: left;
+    top: auto;
+     position: absolute;
+}
+
+header nav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+  ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+ul li a {
+    text-decoration: none;
+    color: rgba(225,255,255,0.75) ;
+    padding: 5px 0.2px;
+    transition: 0.5% ease;
+}
+
+ul li a:hover{
+    color:  rgba(255,255,255,1) ;
+}
+
+ul li a.active{
+    border-bottom: 2px solid cornflowerblue;
+    color:aliceblue;
+
+}
+
+ul li a.SIGNIN{
+    border: 1px solid #fff ;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
+
+ul li a.SIGNIN:hover{
+ background-color: #fff;
+    color:cornflowerblue;
+}
+body{
+ background-color:#f4f4f4;
+}
+table, td, th {
+ border: 1px;
+ text-align: center;
+}
+
+table {
+ border-collapse: collapse;
+ width: 100%;
+}
+
+th, td {
+ padding: 15px;
+border-bottom: 1px;
+}
+
+ tr:hover{
+background-color:#b3c6ff;
+}
