@@ -1,11 +1,11 @@
 <html>
 <head>
 <title> sign up </title>
-<link rel="stylesheet" type="text/css" href="style4.css">
+<link rel="stylesheet" type="text/css" href="css/style4.css">
 
 </head>
 
-<body class="u">
+<body>
         <header>
     <div class="container" >
         <div id="branding">
@@ -19,7 +19,7 @@
         <li><a  href="index.html">COURSES</a></li>
         <li><a  href="index.html">NOTE</a></li>
         <li><a  href="index.html">CONTACT</a></li>
-        <li ><a  class="SIGNIN"  href="index.html">SIGN IN</a></li>
+        <li ><a  class="SIGNIN"  href="signin1.html">SIGN IN</a></li>
         </ul>
         </nav>
     </div>
@@ -32,24 +32,37 @@
 <form>
 
   <div class="inputbox">
-  <lable>first name</lable><input type="texs" name="first_name">
-<br>
-<lable> middle name </lable> <input type="texs" name="middle_name">
-<br>
-<lable> Last name </lable> <input type="texs" name="last_name">
+      <label class="label">first name</label>
+ <input type="text" name="first_name"> 
+    </div>
+    
+<div class="inputbox">
+    <label class="label"> middle name </label>
+ <input type="text" name="middle_name">
+    </div>
+    
+    <div class="inputbox">
+        <label class="label"> Last name </label>
+ <input type="text" name=""required="">
+    </div>
+    
+<div class="inputbox">
+    <label class="label" > phone No: </label>
+ <input type="number" name=""required="">
+    </div>
+    
+<div class="inputbox">
+    <label class="label"> email </label> 
+    <input type="email" name="email" required> </div>
+    
+<div class="inputbox"><label class="label">password</label>
+ <input type="password" name="password" required>
+    </div>
 
-<lable> phone No: </lable> <input type="number" name="phone_No">
-<br>
-<lable> email </lable> <input type="email" name="email" required>
-<br>
-<lable>password</lable> <input type="password" name="password" required>
-<br>
-</div>
-
-<input type="checkbox" name="send-Email"> <lable> catch up with our courses </lable>
+    <input type="checkbox" name="send-Email"> <label style="color:#fff;"> catch up with our courses </label> 
 <br><br>
 
-<center><button type="submit" name="submit" class="button1">send</button></center>
+<center><button type="submit" name="submit" class="button1" >send</button></center>
 
 
 </form>
